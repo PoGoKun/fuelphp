@@ -2,6 +2,6 @@
 <br>
 
 <?php echo render('libro/_form'); ?>
-<p>
+<p> 
 	<?php echo Html::anchor('libro/view/'.$libro->id, 'View'); ?> |
 	<?php echo Html::anchor('libro', 'Back'); ?></p>

@@ -13,8 +13,8 @@ class Create_libros
             'creador' => array('type' => 'varchar', 'constraint' => 255, 'null' => false),
             'created_at' => array('constraint' => '11', 'null' => false, 'type' => 'int'),
             'updated_at' => array('constraint' => '11', 'null' => false, 'type' => 'int'),
-        ), array('id'));
-    }
+        ), array('id')); 
+    } 
 
     public function down()
     {

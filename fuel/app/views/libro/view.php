@@ -2,4 +2,4 @@
 
 
 <?php echo Html::anchor('libro/edit/'.$libro->id, 'Edit'); ?> |
-<?php echo Html::anchor('libro', 'Back'); ?>
+<?php echo Html::anchor('libro', 'Back'); ?>  

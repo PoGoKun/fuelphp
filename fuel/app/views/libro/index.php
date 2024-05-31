@@ -5,7 +5,7 @@
 	<thead>
 		<tr>
 			<th>Titulo</th>
-			<th>Resumen</th>
+			<th>Resumen</th> 
 			<th>Creador</th>
 			<th>&nbsp;</th>
 		</tr>

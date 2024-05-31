@@ -5,7 +5,7 @@ class Controller_Libro extends Controller_Template
     {
         $data['libros'] = Model_Libro::find('all');
         $this->template->title = "Libros";
-        $this->template->content = View::forge('libro/index', $data);
+        $this->template->content = View::forge('libro/index', $data); 
     }
 
     public function action_view($id = null)
